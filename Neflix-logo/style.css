@@ -1,0 +1,48 @@
+body {
+    background: #222125;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;      transform:translate(-40%,-40%);
+    display: flex;
+    width: 120px;
+    height: 200px;
+    overflow: hidden;
+}
+
+span{
+    position: absolute;
+    width: 40px;
+    height: 200px;
+    background: #d81f26;
+}
+
+span:nth-child(1){
+    right: 0
+    ;
+}
+
+span:nth-child(2){
+ left: 40px;
+z-index: 1;
+     transform:skew(22deg);
+        box-shadow:0 0 15px #000;
+}
+
+h1 {
+    position: relative;
+    color: #d81f26;
+    background: center / cover url('./clip\ path.jpeg') no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    padding-top: 600px;
+}
